@@ -1,6 +1,9 @@
 # HiLA-MIL
 Weakly Supervised Artificial Intelligence for Pan-cancer Detection of Lymph Node Metastasis on Whole Slide Images: Advantages for Isolated Tumor Cells 
 
+## Data
+https://pan.baidu.com/s/10VXWUsfPn8bio9yLKL18Rg?pwd=kxiw 
+
 ## Prepare Patch Features
 To preprocess WSIs, we used https://github.com/mahmoodlab/CLAM/tree/master#wsi-segmentation-and-patching.
 
