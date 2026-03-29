@@ -25,9 +25,6 @@ conda activate your_env_name
 conda install pytorch==2.1.1 torchvision==0.16.1 torchaudio==2.1.1 pytorch-cuda=11.8 -c pytorch -c nvidia
 
 pip install -r requirements.txt
-
-pip install ./mamba_requirements/causal_conv1d*.whl
-pip install ./mamba_requirements/mamba_ssm*.whl
 ```
 
 ## Instructions for Use
