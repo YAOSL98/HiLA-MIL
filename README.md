@@ -37,7 +37,7 @@ python create_patches_fp.py --source DATA_DIRECTORY --save_dir RESULTS_DIRECTORY
 
 CUDA_VISIBLE_DEVICES=0 python extract_features_fp.py --data_h5_dir DIR_TO_COORDS --data_slide_dir DATA_DIRECTORY --csv_path CSV_FILE_NAME --feat_dir FEATURES_DIRECTORY --batch_size 512 --slide_ext .ndpi --model_name uni_v1
 ```
-When running ```extract_features_fp.py```, also set ````--model_name``` to ```uni_v1, gigapath, VIRCHOW, or resnet50_trunc``` to use the respective encoder
+When running ```extract_features_fp.py```, also set ```--model_name``` to ```uni_v1, gigapath, VIRCHOW, or resnet50_trunc``` to use the respective encoder
 ### Traning
 ```
 python3 main.py --project=$PROJECT_NAME --dataset_root=$DATASET_PATH --model_path=$OUTPUT_PATH --cv_fold=3 --title=mambamil --model=pure --baseline=mymamba --seed=2021
