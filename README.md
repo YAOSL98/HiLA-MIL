@@ -51,8 +51,9 @@ python demo.py
 Execution of the demo will generate three sets of core evaluation outputs (corresponding to the full experimental metrics) for the Baseline+HiLA-MIL model, covering:
 - Overall performance metrics on the entire dataset;
 - Category-specific performance evaluation for Negative, ITC, Micro and Macro sub-datasets;
+- Confusion Matrix;
 - Statistical results (mean ± standard deviation) of all key metrics (AUC, Acc, Pre, Rec, Spe, F1). [![ROC and F1 Score](Demo/Results/Virchow/roc_f1.png)](Demo/Results/Virchow/roc_f1.png)
-- Confusion Matrix. [![Confusion Matrix](Demo/Results/Virchow/confusion_matrix.png)](Demo/Results/Virchow/confusion_matrix.png)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
