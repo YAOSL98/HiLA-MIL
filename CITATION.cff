@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Sun"
+    given-names: "Lili"
+  - family-names: "Yao"
+    given-names: "Shuilian"
+  - family-names: "Jia"
+    given-names: "Qi"
+  - family-names: "Zhu"
+    given-names: "Yanmei"
+title: "Weakly Supervised Artificial Intelligence for Multi-cancer Detection of Lymph Node Metastasis on Whole Slide Images"
+version: "v1.0"
+doi: "10.5281/zenodo.21028097"
+date-released: "2026-06-29"
+repository-code: "https://github.com/YAOSL98/HiLA-MIL"
